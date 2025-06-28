@@ -1,8 +1,11 @@
 public class TypeCasting {
     public static void main(String[] args){
         WideningCasting();
+        System.out.println("***---------------------------------------***");
         NarrowingCasting();
+        System.out.println("***---------------------------------------***");
         RealifeCasting();
+        System.out.println("***---------------------------------------***");
     }
 
     public static void WideningCasting(){
