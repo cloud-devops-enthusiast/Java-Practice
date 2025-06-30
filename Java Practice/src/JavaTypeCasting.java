@@ -1,4 +1,4 @@
-public class TypeCasting {
+public class JavaTypeCasting {
     public static void main(String[] args){
         WideningCasting();
         System.out.println("***---------------------------------------***");
