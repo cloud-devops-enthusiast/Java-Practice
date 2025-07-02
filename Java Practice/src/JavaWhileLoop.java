@@ -5,6 +5,8 @@ public class JavaWhileLoop {
         System.out.println("***---------------------------------------***");
         countdownWhile();
         System.out.println("***---------------------------------------***");
+        doWhile();
+
     }
 
     public static void simpleWhile(){
@@ -22,5 +24,15 @@ public class JavaWhileLoop {
             j--;
         }
         System.out.println("Welcome to the system!!!!!!!");
+    }
+
+    private static void doWhile(){
+        int i = 0;
+        do{
+            System.out.println("On the count of "+i);
+            i++;
+        }
+        while (i<10);
+        System.out.println("Wohoooo!!!!!");
     }
 }
