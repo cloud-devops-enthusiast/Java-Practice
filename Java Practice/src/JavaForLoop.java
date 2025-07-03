@@ -7,6 +7,10 @@ public class JavaForLoop {
         nestedForLoop();
         System.out.println("***---------------------------------------***");
         nestedMultiplication();
+        System.out.println("***---------------------------------------***");
+        forEachLoop();
+        System.out.println("***---------------------------------------***");
+        evenValues();
     }
 
     private static void simpleForLoop(){
@@ -40,6 +44,19 @@ public class JavaForLoop {
                 System.out.println("i * j: "+(i*j));
             }
             System.out.println("");
+        }
+    }
+
+    public static void forEachLoop(){
+        String[] cars = {"Ford","Tata","Mahindra","Honda","Citroen"};
+        for(String i : cars){
+            System.out.println("i: "+i);
+        }
+    }
+
+    public static void evenValues(){
+        for(int i = 0; i <= 30; i = i+2){
+            System.out.println("i: "+i);
         }
     }
 }
