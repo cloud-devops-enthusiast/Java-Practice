@@ -11,6 +11,8 @@ public class JavaForLoop {
         forEachLoop();
         System.out.println("***---------------------------------------***");
         evenValues();
+        System.out.println("***---------------------------------------***");
+        multiplicationTable();
     }
 
     private static void simpleForLoop(){
@@ -57,6 +59,13 @@ public class JavaForLoop {
     public static void evenValues(){
         for(int i = 0; i <= 30; i = i+2){
             System.out.println("i: "+i);
+        }
+    }
+
+    public static void multiplicationTable(){
+        int number = 7;
+        for(int i = 1; i <= 10; i++){
+            System.out.println(number + "x" + i + " = " + (number * 1));
         }
     }
 }

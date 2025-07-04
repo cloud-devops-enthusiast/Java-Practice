@@ -1,4 +1,4 @@
-public class javaSwitch {
+public class JavaSwitch {
     public static void main(String[] args){
         intSwitch();
         System.out.println("***---------------------------------------***");
