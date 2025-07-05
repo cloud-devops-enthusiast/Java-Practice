@@ -15,6 +15,8 @@ public class JavaMethods {
         javaMethodTest();
         System.out.println("***---------------------------------------***");
         javaMethodTest2();
+        System.out.println("***---------------------------------------***");
+        accessLevelCheck();
     }
 
     public static void firstMethod(){
@@ -45,6 +47,28 @@ public class JavaMethods {
         multiParameter("laptop",1);
         multiParameter("Pillow",6);
         multiParameter("Bed",7);
+    }
+
+    public static void checkAcces(int level){
+        if(level==1){
+            System.out.println("You've the owner access.");
+        }
+        else if(level==2){
+            System.out.println("You've the editor access.");
+        }
+        else if(level==3){
+            System.out.println("You've the viewer access.");
+        }
+        else{
+            System.out.println("You don't have access.");
+        }
+    }
+
+    public static void accessLevelCheck(){
+        checkAcces(1);
+        checkAcces(2);
+        checkAcces(3);
+        checkAcces(0);
     }
 
     public static void secondMethod(){
