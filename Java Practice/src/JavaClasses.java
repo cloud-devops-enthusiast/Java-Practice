@@ -1,5 +1,6 @@
 public class JavaClasses {
     int x = 10;
+    int result = x * 2905;
 
     public static void main(String[] args){
         //Creating multiple objects
@@ -10,5 +11,7 @@ public class JavaClasses {
         //Accessing variable from class object
         System.out.println("myobj: "+myobj.x);
         System.out.println("myobj1: "+myobj2.x);
+        //Acessing other variables from class object
+        System.out.println("myobj Usage: "+myobj.result);
     }
 }
