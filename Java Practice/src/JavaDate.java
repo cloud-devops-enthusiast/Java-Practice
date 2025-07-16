@@ -32,7 +32,7 @@ public class JavaDate {
     public static void dateTimeFormatter(){
         LocalDateTime myObj = LocalDateTime.now();
         System.out.println("Before Formatting: "+myObj);
-        System.out.println("***---------------------------------------***");
+
         DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         String formatDate = myObj.format(myFormatObj);
         System.out.println("After Formatting: "+formatDate);
