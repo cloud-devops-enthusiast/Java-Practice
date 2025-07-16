@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class JavaArrayList {
@@ -47,6 +46,12 @@ public class JavaArrayList {
         myNumber.add(49);
         for (int i:myNumber){
             System.out.println("myNumber: "+i);
+            System.out.println("***---***");
+        }
+        //Sort number
+        Collections.sort(myNumber);
+        for (int i:myNumber){
+            System.out.println("myNumber after Sort: "+i);
             System.out.println("***---***");
         }
     }
