@@ -1,1 +1,2 @@
 [![wakatime](https://wakatime.com/badge/user/fb51e98c-3adf-4260-a9c6-172a980deda7/project/5f87c2ae-a41e-4c80-8760-2ba3e95377f9.svg)](https://wakatime.com/badge/user/fb51e98c-3adf-4260-a9c6-172a980deda7/project/5f87c2ae-a41e-4c80-8760-2ba3e95377f9)
+[![wakatime](https://wakatime.com/badge/github/cloud-devops-enthusiast/Java-Practice.svg)](https://wakatime.com/badge/github/cloud-devops-enthusiast/Java-Practice)
