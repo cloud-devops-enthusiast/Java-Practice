@@ -37,4 +37,8 @@ public class Java_SelectionSort {
             System.out.println(myInt[i] + " ");
         }
     }
+
+    public static void method2(){
+
+    }
 }
