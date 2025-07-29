@@ -10,4 +10,6 @@ Step by Step Process:
 - All the values after first element needs to be compared to the values in the other part of the array, so it can be inserted at the correct position.
 - The insertion sort should run through the array at-least 5 times if the size of array is of 6 elements, because we do not need to sort the first value.
 - Also, whenever the algorithm works over the array the unsorted part of the array becomes short and short.
-- 
+
+Implementation of Sort Implementation
+
