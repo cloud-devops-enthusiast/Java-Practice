@@ -3,8 +3,13 @@ public class JavaExceptionHandelling {
         //Testing the normal Usecase
         System.out.println("Normal Usecase: ");
         normalUsecase();
+        System.out.println("***---------------------------------------***");
         System.out.println("Exception Handelled: ");
         exceptionHandelled();
+        System.out.println("***---------------------------------------***");
+        System.out.println("Final Keyword Usage: ");
+        finalExceptionHandelled();
+        System.out.println("***---------------------------------------***");
         System.out.println("Exception Issue: ");
         exceptionIssue();
     }
@@ -25,6 +30,20 @@ public class JavaExceptionHandelling {
         catch(Exception e){
             //The Solution or clarification of Code goes here
             System.out.println("Something went wrong while finding the resuls.");
+        }
+    }
+
+    public static void finalExceptionHandelled(){
+        //In this case we are using the final keyword.
+        try {
+            int[] myNumber = {1,4,8};
+            System.out.println("Higest Number in an array: ");
+        }
+        catch (Exception e){
+            System.out.println("Something went Wrong");
+        }
+        finally {
+            System.out.println("The both try and catch statemnent haas been processes.");
         }
     }
 

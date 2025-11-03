@@ -18,3 +18,18 @@ There are some keywords which are used in exception handelling like:
 
             }
 
+**Final Keyword**
+
+The Final keyword is kept where we keep the code which needs to be executed after the *try* and *catch* statement, regardless of the result.
+
+            try{
+
+            }
+
+            catch{
+
+            }
+
+            finally{
+
+            }
